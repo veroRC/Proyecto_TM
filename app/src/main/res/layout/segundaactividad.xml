@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/etFotoPersona"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/persona" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreyApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre y Apellidos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etDNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dirección"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSubirDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781636821249",
+    "firebase_url": "https://untoque-dev.firebaseio.com",
+    "project_id": "untoque-dev",
+    "storage_bucket": "untoque-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781636821249:android:17e4b05e1d0525be463b00",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_tm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781636821249-erc2njqjqqrb3f1k7jf94ia4ssgs2s74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBntMfD0l3LfzT0DmZ4FeFf4RPsyD4_SWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781636821249-erc2njqjqqrb3f1k7jf94ia4ssgs2s74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
