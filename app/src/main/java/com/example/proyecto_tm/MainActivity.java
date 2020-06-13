@@ -8,6 +8,7 @@ import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity {
+    //Published on 2020-06-13 Github
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
     public void onClickLogin(View view) {
         startActivity(new Intent("com.example.TerceraActivity"));
     }
+    
 }
