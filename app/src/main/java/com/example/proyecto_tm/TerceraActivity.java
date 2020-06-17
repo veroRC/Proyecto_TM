@@ -50,10 +50,5 @@ public class TerceraActivity extends AppCompatActivity {
     }
     public void onContinuar(){
         Log.d("mensajeFinal", "Su barra de progreso acaba de cargar");
-    } 
-    
-        public void onClickIniciarSesion(View view){
-        Intent Sesion = new Intent(this,CuartaActivity.class);
-        startActivity(Sesion);
     }
 }
